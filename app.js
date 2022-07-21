@@ -20,3 +20,7 @@ let atributes = document.querySelectorAll('[data-function="testMe"]');
 atributes.forEach( ( element, index) => {
     console.log( index == 2 ? element : '' );
 });
+
+
+/* Iteración #2: Modificando el DOM */
+
