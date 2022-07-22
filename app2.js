@@ -56,8 +56,15 @@ toRemove.forEach((container) => {
     container.remove();
 });
 
-
 /* 2.8 */
+let paragraph3 = document.createElement('p');
+paragraph3.innerHTML = 'Voy en medio!';
+let divs = document.querySelectorAll('div');
+body.insertBefore( paragraph3, divs[1] );
+console.log( body );
+
+
+/* 2.9 */
 let allDivs = document.querySelectorAll(".fn-insert-here");
 
 allDivs.forEach((container) => {
